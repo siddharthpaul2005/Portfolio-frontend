@@ -6,9 +6,9 @@ import { useState } from "react"
 
 const stats = [
   { label: "Years Coding", value: "8+" },
-  { label: "Lines of Code", value: "500K+" },
-  { label: "Projects Shipped", value: "25+" },
-  { label: "Hackathons", value: "12" },
+  { label: "Lines of Code", value: "50K+" },
+  { label: "Projects Shipped", value: "10+" },
+  { label: "Hackathons", value: "1+" },
 ]
 
 export function AboutSection() {

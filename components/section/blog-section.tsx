@@ -30,13 +30,13 @@ const blogPosts = [
   },
   {
     id: 3,
-    title: "Quantitative Trading in 2024",
-    excerpt: "Market analysis and algorithmic strategies that actually work in modern financial markets...",
-    category: "Research Notes",
+    title: "How Eigen Faces Got me Hooked into Machine Learning",
+    excerpt: "It is amazing how a in just a moment we put out face infront of the screen it instantly recognises who we are...",
+    category: "Experimentation",
     readTime: "15 min read",
     date: "Nov 10, 2024",
     image: "/placeholder-alwph.png",
-    mediumUrl: "https://medium.com/@yourusername/quantitative-trading-2024",
+    mediumUrl: "https://medium.com/@paulsiddharth/how-eigenfaces-got-me-hooked-on-machine-learning-8283864324f1",
   },
 ]
 
@@ -49,7 +49,7 @@ export function BlogSection() {
     selectedCategory === "All" ? blogPosts : blogPosts.filter((post) => post.category === selectedCategory)
 
   const openMediumProfile = () => {
-    window.open("https://medium.com/@yourusername", "_blank")
+    window.open("https://medium.com/@paulsiddharth", "_blank")
   }
 
   const openMediumPost = (url: string) => {

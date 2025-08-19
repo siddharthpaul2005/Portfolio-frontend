@@ -101,7 +101,7 @@ export function ContactSection() {
                     </div>
                     <div>
                       <p className="text-gray-400 text-sm">Email</p>
-                      <p className="text-white">hello@example.com</p>
+                      <p className="text-white">codesiddharth2005@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
@@ -110,7 +110,7 @@ export function ContactSection() {
                     </div>
                     <div>
                       <p className="text-gray-400 text-sm">GitHub</p>
-                      <p className="text-white">@username</p>
+                      <p className="text-white">@siddharthpaul2005</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
@@ -119,7 +119,7 @@ export function ContactSection() {
                     </div>
                     <div>
                       <p className="text-gray-400 text-sm">LinkedIn</p>
-                      <p className="text-white">@username</p>
+                      <p className="text-white">@siddharth-paul-00ab59278</p>
                     </div>
                   </div>
                 </div>
